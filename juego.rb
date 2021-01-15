@@ -8,7 +8,7 @@ puts "ingrese la palabra de su jugada"
 turno1 = gets.chomp
 i = 0
  while i < 1 do
- 	
+
  	if turno1 == "salir"
  		puts "Gracias por jugar"
 		i += 1
@@ -20,7 +20,7 @@ i = 0
 		puts "Turno jugador dos:
 		1. Piedra
 		2. Papel
-		3. Tijeras
+		3. Tijera
 		4. Salir
 		"
 		puts "ingrese la palabra de su jugada"
